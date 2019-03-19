@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d2dfd9"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rlWeekDay"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_margin="3dp"
+            android:background="@drawable/circle_shape">
+
+            <TextView
+                android:id="@+id/tvWeekDayFirstLetter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" E "
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#232626"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="Robert Downey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+
+
+
+    <TextView
+
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/6 SFS Mansarovar, Jaipur" />
+
+</LinearLayout>

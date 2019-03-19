@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blink Basket</string>
+    <string name="title_activity_nav__main">Nav_Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="err_network">Check your internet connection</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="one_time_sms">We will send you a One Time message.</string>
+    <string name="verify">Verify</string>
+    <string name="verify_title">Verification Code</string>
+    <string name="verify_otp">Please type the verification code sent to</string>
+    <string name="err_msg_name">Please enter the name</string>
+    <string name="only_digits_not_allowed">Only digits not allowed</string>
+    <string name="enter_valid_name">Enter a valid name</string>
+</resources>

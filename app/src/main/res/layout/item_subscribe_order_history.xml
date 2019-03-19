@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_height="165dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/orderid_subs_oh"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:text="Transaction id is : #Qw2345"
+                android:textSize="15sp"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1.5"
+            android:weightSum="5"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:id="@+id/img_subs_oh"
+                android:src="@drawable/amul"
+                android:layout_weight="1"
+                android:layout_gravity="start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:weightSum="2"
+                        android:layout_height="0dp">
+                        <TextView
+                            android:id="@+id/tv_itemname_subs_oh"
+                            android:gravity="center_vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="match_parent"
+                            android:text=" Amul Butter"
+                            android:textSize="12sp"/>
+                        <TextView
+                            android:id="@+id/tv_price_subs_oh"
+                            android:gravity="center_vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight=".5"
+                            android:layout_height="match_parent"
+                            android:text="₹135"
+                            android:textColor="#000"
+                            android:textSize="14sp"/>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="2"
+                    android:layout_weight="1.5">
+                    <TextView
+                        android:id="@+id/tv_size_subs_oh"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:layout_weight="1.5"
+                        android:text=" 1 lt"/>
+                    <TextView
+                        android:id="@+id/tv_quantity_subs_oh"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#000"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="14sp"
+                        android:layout_weight="1"
+                        android:text="₹45 × 3"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_deliveries_subs_oh"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:text=" Deliverd/ Total Deliveries : 4/10"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_from_subs_oh"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:textSize="12sp"
+            android:text="From : 27-01-2019"/>
+        <TextView
+            android:id="@+id/tv_to_subs_oh"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:text="To : 27-01-2019"/>
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
